@@ -1,0 +1,1 @@
+import{d2 as a}from"./index-CjBoRKpJ.js";class t{static success(r="",s=""){a({title:r,description:s,color:"success"})}static info(r="",s=""){a({title:r,description:s,color:"primary"})}static warning(r="",s=""){a({title:r,description:s,color:"warning"})}static error(r="",s=""){a({title:r,description:s,color:"danger"})}static clear(){}}export{t as A};

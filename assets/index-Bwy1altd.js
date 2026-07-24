@@ -1,0 +1,1 @@
+const o=t=>t,f=(t,e)=>{switch(e.type){case"set":return{...t,...e.payload};case"reset":return o(e.payload);default:throw new Error}},u=(t,e,n=void 0,r=void 0)=>{if(typeof e=="string"&&typeof n<"u")return t({type:"set",payload:{[e]:n}}),typeof r=="function"?r():void 0;if(typeof e=="object")return t({type:"set",payload:e}),typeof n=="function"?n():void 0};export{u as h,f as r};
