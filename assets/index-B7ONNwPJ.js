@@ -1,0 +1,1 @@
+import{E as t,cQ as r}from"./index-CtyqMkbY.js";import{R as a,b as u,a as n}from"./requestUpdateUser-DKnB8FH4.js";class o{static getAll(e){return t(new r(e))}static create(e){return t(new a(e))}static delete(e){return t(new u(e))}static update(e,s){return t(new n(e,s))}}export{o as M};
