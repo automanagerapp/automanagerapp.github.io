@@ -1,0 +1,1 @@
+import{r as t,cM as s}from"./index-DfCo_pEc.js";function o(e,u=[]){const r=t.useRef(e);return s(()=>{r.current=e}),t.useCallback((...c)=>{var a;return(a=r.current)==null?void 0:a.call(r,...c)},u)}export{o as u};
